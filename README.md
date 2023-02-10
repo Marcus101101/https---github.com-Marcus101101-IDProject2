@@ -2,7 +2,7 @@
 Note:
 We did not use Github to share, instead we send multiple copies to each other
 to keep track of our progress.
-If we use Github to share, we would encounter multiple problems where we could not upload the file.
+when we use Github to share, we would encounter multiple problems where we could not upload the file.
 
 README created by Ri Sheng
 
