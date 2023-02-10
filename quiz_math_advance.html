@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game - API Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+     <!-- ===== CSS ===== -->
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="quiz_math_advance.css">
+
+     
+        
+     <!-- ===== Boxicons CSS ===== -->
+     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class = "flex">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <body>
+        <nav>
+            <div class="nav-bar">
+                <i class='bx bx-menu sidebarOpen' ></i>
+                <span class="logo navLogo"><a href="index.html">QuizLab</a></span>
+    
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <span class="logo"><a href="index.html"> QuizLab</a></span>
+                        <i class='bx bx-x siderbarClose'></i>
+                    </div>
+    
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html #about-section">About</a></li>
+                        <li><a href="index.html #quiz-section">Quiz</a></li>
+                        <li><a href="leaderboard.html">Leaderboard</a></li>
+                        
+                    </ul>
+                </div>
+    
+                <div class="darkLight-searchBox">
+                    <div class="dark-light">
+                        <i class='bx bx-moon moon'></i>
+                        <i class='bx bx-sun sun'></i>
+                    </div>
+    
+                   
+                </div>
+            </div>
+        </nav>
+       
+    <div class = "gap">
+        <div class = "wrapper">
+            <div class = "quiz-container">
+            
+                <div class = "quiz-head">
+                    <div class = "quiz-score flex">
+                        <span id = "correct-score"></span>/<span id = "total-question"></span>
+                    </div>
+                </div>
+                <div class = "quiz-body">
+                    <h2 class = "quiz-question" id = "question"><!--What is the full form of HTTP? --></h2>
+                    <ul class = "quiz-options">
+                    
+                    </ul>
+                    <div id = "result">
+                    </div>
+                </div>
+                <div class = "quiz-foot">
+                   
+                    <button type = "button" id = "check-answer">Check Answer</button>
+                    <button type = "button" id = "play-again">Play Again!</button>
+                    <br>
+                
+                    <div id = "submit-form">
+                       
+                        <input type="text" id="contact-name" class="form-control" required placeholder="Name">
+                        <br>
+                        <br>
+                        <button type="button" " id="contact-submit">Save</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+    <script>
+        function myOnClickFn(){
+            document.location.href="index.html";
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="quiz_math_advance.js"></script>
+
+    
+    
+</body>
+</html>
